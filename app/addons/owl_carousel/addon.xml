@@ -1,24 +1,28 @@
 <?xml version="1.0"?>
 <addon scheme="2.0" edition_type="ROOT,ULT:VENDOR">
-    <id>owl_carousel</id>
-    <version>1.0</version>
-	<default_language>en</default_language>
+	<id>owl_carousel</id>
+	<version>1.0.0</version>
 	<name>Owl Carousel Blocks</name>
 	<description>Makes Owl Carousel available as a block in various places.</description>
-    <priority>2801</priority>
-    <position>100</position>
+	<priority>2801</priority>
+	<position>100</position>
 	<status>active</status>
-    <default_language>en</default_language>
-    <authors>
-        <author>
-            <name>Dhaupin - CreadevDotOrg</name>
-            <email>dhaupin@creadev.org</email>
-            <url>https://creadev.org</url>
-        </author>
-    </authors>
+	<default_language>en</default_language>
 	<compatibility>
+		<core_version>
+			<min>4.3.4</min>
+			<!-- Untested below v4.3.4 -->
+		</core_version>
 		<dependencies>banners</dependencies>
 	</compatibility>
+	<authors>
+		<author>
+			<name>Dhaupin - CreadevDotOrg</name>
+			<email>dhaupin@creadev.org</email>
+			<url>https://creadev.org</url>
+		</author>
+	</authors>
+	
 	<language_variables>
 		<item lang="en" id="owl_carousel">Owl Carousel</item>
 	</language_variables>
